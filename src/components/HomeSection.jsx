@@ -9,7 +9,7 @@ import "../styles/HomeSection.css";
 
 const HomeSection = () => {
   return (
-    <StyledSection className="home-section-wrapper">
+    <StyledSection className="home-section-wrapper" id="home">
       <SectionContent className="home-section-container">
         <SectionLeft $isText>
           <h1 className="section-heading">Heading text</h1>

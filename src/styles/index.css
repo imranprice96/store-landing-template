@@ -2,7 +2,14 @@
   --section-bg-dark: #171717;
   --section-bg-light: #e5e5e5;
   --font-colour-light: #262626;
+  --green-primary: #16a34a;
 
   color-scheme: light dark;
   font-family: "Libre Baskerville", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+  scroll-margin-top: 7rem;
 }

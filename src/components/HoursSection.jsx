@@ -1,4 +1,4 @@
-import bookImg from "../assets/book_2.jpg";
+import bookImg from "../assets/book_1.jpg";
 import "../styles/HoursSection.css";
 
 import {
@@ -27,14 +27,14 @@ const HoursSection = () => {
   ));
 
   return (
-    <StyledSection $isBody>
+    <StyledSection $isBody id="hours">
       <SectionContent>
-        <SectionLeft>
-          <img src={bookImg} alt="image" className="section-img" />
-        </SectionLeft>
-        <SectionRight $isText $size="1.5rem">
+        <SectionLeft $isText $size="1.5rem">
           <h1 className="section-heading">Hours</h1>
           <ul>{hoursList}</ul>
+        </SectionLeft>
+        <SectionRight>
+          <img src={bookImg} alt="image" className="section-img" />
         </SectionRight>
       </SectionContent>
     </StyledSection>

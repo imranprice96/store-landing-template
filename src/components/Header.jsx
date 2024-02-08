@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import "../styles/Header.css";
-import tm_logo from "../assets/tm_logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faStore } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
@@ -8,23 +10,29 @@ const Header = () => {
       <StyledList>
         <div className="header-divider">
           <li>
-            <a>Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a>Location</a>
+            <a href="#location">Location</a>
           </li>
           <li>
-            <a>Hours</a>
+            <a href="#hours">Hours</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </div>
 
         <div className="header-divider">
-          <li>FB_icon</li>
           <li>
-            <img src={tm_logo} alt="trade-me" id="tm" />
+            <a>
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+          </li>
+          <li>
+            <a>
+              <FontAwesomeIcon icon={faStore} />
+            </a>
           </li>
         </div>
       </StyledList>
@@ -41,7 +49,7 @@ const StyledNav = styled.nav`
   top: 0;
   display: flex;
   align-items: center;
-  background-color: #16a34a;
+  background-color: var(--green-primary);
   height: 75px;
 `;
 

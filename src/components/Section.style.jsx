@@ -4,11 +4,12 @@ import styled from "styled-components";
 export const StyledSection = styled.section`
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: auto;
   background-color: ${(props) =>
     props.$isBody ? "var(--section-bg-light)" : "inherit"};
 
   padding: ${(props) => (props.$isBody ? "5rem 0 5rem 0" : "0")};
+  margin: 0 1rem;
 
   @media (prefers-color-scheme: dark) {
     background-color: ${(props) =>
@@ -18,7 +19,7 @@ export const StyledSection = styled.section`
 
 export const SectionContent = styled.div`
   width: 980px;
-  height: auto;
+  height: 70vh;
   margin: auto;
   display: flex;
   align-items: center;

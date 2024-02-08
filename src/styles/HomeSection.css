@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+#home {
+  margin: 0;
+}
+
 .home-section-container {
   background-color: inherit;
 }
