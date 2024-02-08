@@ -1,4 +1,4 @@
-import bookImg from "../assets/book_3.jpg";
+import bookImg from "../assets/book_3.png";
 import {
   StyledSection,
   SectionContent,

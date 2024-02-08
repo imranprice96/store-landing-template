@@ -1,4 +1,4 @@
-import bookImg from "../assets/book_1.jpg";
+import bookImg from "../assets/book_1.png";
 import "../styles/HoursSection.css";
 
 import {

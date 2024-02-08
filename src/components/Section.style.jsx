@@ -30,9 +30,13 @@ export const SectionContent = styled.div`
 export const SectionLeft = styled.div`
   width: ${(props) => (props.$isText ? "40%" : "50%")};
   font-size: ${(props) => (props.$size ? props.$size : "inherit")};
+  display: block;
+  align-items: center;
 `;
 
 export const SectionRight = styled.div`
   width: ${(props) => (props.$isText ? "40%" : "50%")};
   font-size: ${(props) => (props.$size ? props.$size : "inherit")};
+  display: block;
+  align-items: center;
 `;
