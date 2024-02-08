@@ -2,3 +2,15 @@
   display: flex;
   gap: 2rem;
 }
+
+#tm {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: scale-down;
+}
+
+.header-divider li {
+  display: flex;
+  align-items: center;
+  height: 75px;
+}

@@ -1,20 +1,31 @@
 import styled from "styled-components";
 import "../styles/Header.css";
+import tm_logo from "../assets/tm_logo.png";
 
 const Header = () => {
   return (
     <StyledNav>
       <StyledList>
         <div className="header-divider">
-          <li>*</li>
-          <li>Home</li>
-          <li>Hours</li>
-          <li>Contact</li>
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>Location</a>
+          </li>
+          <li>
+            <a>Hours</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
         </div>
 
         <div className="header-divider">
           <li>FB_icon</li>
-          <li>Tradme_icon</li>
+          <li>
+            <img src={tm_logo} alt="trade-me" id="tm" />
+          </li>
         </div>
       </StyledList>
     </StyledNav>
@@ -41,4 +52,6 @@ const StyledList = styled.ul`
   justify-content: space-between;
   list-style: none;
   font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
 `;

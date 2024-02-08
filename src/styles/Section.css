@@ -5,7 +5,14 @@ img {
 }
 
 .section-heading {
-  font-weight: bold;
+  color: var(--font-colour-light);
+  font-weight: bolder;
   margin-bottom: 1rem;
   font-size: 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .section-heading {
+    color: white;
+  }
 }

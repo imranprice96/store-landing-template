@@ -12,9 +12,8 @@ const HomeSection = () => {
     <StyledSection className="home-section-wrapper">
       <SectionContent className="home-section-container">
         <SectionLeft $isText>
-          <h1 className="section-heading">
-            Whereas disregard and contempt for human rights have resulted
-          </h1>
+          <h1 className="section-heading">Heading text</h1>
+          <p>Whereas disregard and contempt for human rights have resulted</p>
         </SectionLeft>
         <SectionRight>
           <img
