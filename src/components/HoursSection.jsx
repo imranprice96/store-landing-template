@@ -1,5 +1,5 @@
 import bookImg from "../assets/book_2.jpg";
-import "../styles/Hours.css";
+import "../styles/HoursSection.css";
 
 import {
   StyledSection,
@@ -20,20 +20,21 @@ const HoursSection = () => {
   ];
 
   const hoursList = hours.map((item, index) => (
-    <tr key={index}>
-      <td>{item.day}</td>
-      <td>{item.hours}</td>
-    </tr>
+    <span key={index} className="hours-row">
+      <h3>{item.day}</h3>
+      <p>{item.hours}</p>
+    </span>
   ));
 
   return (
-    <StyledSection>
+    <StyledSection $isBody>
       <SectionContent>
         <SectionLeft>
           <img src={bookImg} alt="image" className="section-img" />
         </SectionLeft>
         <SectionRight $isText $size="1.5rem">
-          <table>{hoursList}</table>
+          <h1 className="section-heading">Hours</h1>
+          <ul>{hoursList}</ul>
         </SectionRight>
       </SectionContent>
     </StyledSection>

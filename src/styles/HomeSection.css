@@ -1,0 +1,16 @@
+.home-section-wrapper {
+  height: calc(100vh - 75px);
+  background-color: inherit;
+  overflow: hidden;
+}
+
+.home-section-container {
+  background-color: inherit;
+}
+
+#main-image {
+  height: calc(100vh - 75px);
+  width: auto;
+  left: 50%;
+  object-fit: cover;
+}

@@ -1,20 +1,28 @@
-import bookImg from "../assets/book_1.jpg";
+import bookImg from "../assets/book_4.jpg";
 import {
   StyledSection,
   SectionContent,
   SectionLeft,
   SectionRight,
 } from "./Section.style";
+import "../styles/HomeSection.css";
 
 const HomeSection = () => {
   return (
-    <StyledSection>
-      <SectionContent>
-        <SectionLeft $primary $isText>
-          <p>Whereas disregard and contempt for human rights have resulted</p>
+    <StyledSection className="home-section-wrapper">
+      <SectionContent className="home-section-container">
+        <SectionLeft $isText>
+          <h1 className="section-heading">
+            Whereas disregard and contempt for human rights have resulted
+          </h1>
         </SectionLeft>
         <SectionRight>
-          <img src={bookImg} alt="image" className="section-img" />
+          <img
+            src={bookImg}
+            alt="image"
+            id="main-image"
+            className="section-img"
+          />
         </SectionRight>
       </SectionContent>
     </StyledSection>

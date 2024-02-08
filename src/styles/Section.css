@@ -1,5 +1,11 @@
 img {
   height: 100%;
   width: 100%;
-  object-fit: scale-down;
+  object-fit: cover;
+}
+
+.section-heading {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 3rem;
 }

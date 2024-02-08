@@ -1,0 +1,13 @@
+.hours-row {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem dotted black;
+  margin-bottom: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hours-row {
+    border-bottom: 0.1rem dotted white;
+  }
+}

@@ -24,12 +24,14 @@ const Header = () => {
 export default Header;
 
 const StyledNav = styled.nav`
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   width: 100%;
-  position: fixed;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   background-color: #16a34a;
-  height: 4rem;
+  height: 75px;
 `;
 
 const StyledList = styled.ul`
