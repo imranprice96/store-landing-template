@@ -16,12 +16,7 @@ const HomeSection = () => {
           <p>Whereas disregard and contempt for human rights have resulted</p>
         </SectionLeft>
         <SectionRight>
-          <img
-            src={bookImg}
-            alt="image"
-            id="main-image"
-            className="section-img"
-          />
+          <img src={bookImg} alt="image" id="main-image" />
         </SectionRight>
       </SectionContent>
     </StyledSection>

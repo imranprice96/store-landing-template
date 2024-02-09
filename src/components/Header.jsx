@@ -3,6 +3,7 @@ import "../styles/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faStore } from "@fortawesome/free-solid-svg-icons";
+import LogoSVG from "../assets/svg/logo";
 
 const Header = () => {
   return (
@@ -10,7 +11,11 @@ const Header = () => {
       <StyledList>
         <div className="header-divider">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">
+              <i style={{ color: "white" }}>
+                <LogoSVG width="4rem" height="4rem" />
+              </i>
+            </a>
           </li>
           <li>
             <a href="#location">Location</a>

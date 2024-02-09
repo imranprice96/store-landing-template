@@ -1,4 +1,4 @@
-import bookImg from "../assets/book_2.png";
+import bookImg from "../assets/book_5.jpg";
 import {
   StyledSection,
   SectionContent,
@@ -12,7 +12,7 @@ const LocationSection = () => {
     <StyledSection $isBody id="location">
       <SectionContent>
         <SectionLeft>
-          <img src={bookImg} alt="image" className="section-img" />
+          <img src={bookImg} alt="" className="section-img" />
         </SectionLeft>
         <SectionRight $isText $size="1.5rem">
           <h1 className="section-heading">Location</h1>

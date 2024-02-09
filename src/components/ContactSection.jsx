@@ -1,4 +1,3 @@
-import bookImg from "../assets/book_3.png";
 import {
   StyledSection,
   SectionContent,
@@ -6,14 +5,13 @@ import {
   SectionRight,
 } from "./Section.style";
 import "../styles/HomeSection.css";
+import bookImg from "../assets/svg/books-27.svg";
 
 const ContactSection = () => {
   return (
     <StyledSection $isBody id="contact">
       <SectionContent>
-        <SectionLeft>
-          <img src={bookImg} alt="image" className="section-img" />
-        </SectionLeft>
+        <SectionLeft></SectionLeft>
         <SectionRight $isText $size="1.5rem">
           <h1 className="section-heading">Contact</h1>
         </SectionRight>
