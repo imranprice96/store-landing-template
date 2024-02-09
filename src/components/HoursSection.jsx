@@ -1,5 +1,5 @@
 import "../styles/HoursSection.css";
-import bookImg from "../assets/book_6.png";
+import bookImg from "../assets/book_7.png";
 
 import {
   StyledSection,
@@ -31,9 +31,11 @@ const HoursSection = () => {
       <SectionContent>
         <SectionLeft $isText $size="1.5rem">
           <h1 className="section-heading">Hours</h1>
-          <ul>{hoursList}</ul>
+          <ul id="hoursList">{hoursList}</ul>
         </SectionLeft>
-        <SectionRight></SectionRight>
+        <SectionRight>
+          <img src={bookImg} alt="" className="section-img" />
+        </SectionRight>
       </SectionContent>
     </StyledSection>
   );

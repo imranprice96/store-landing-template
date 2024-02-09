@@ -13,7 +13,12 @@ const HomeSection = () => {
       <SectionContent className="home-section-container">
         <SectionLeft $isText>
           <h1 className="section-heading">Heading text</h1>
-          <p>Whereas disregard and contempt for human rights have resulted</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
         </SectionLeft>
         <SectionRight>
           <img src={bookImg} alt="image" id="main-image" />

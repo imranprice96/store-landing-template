@@ -28,15 +28,25 @@ export const SectionContent = styled.div`
 `;
 
 export const SectionLeft = styled.div`
-  width: ${(props) => (props.$isText ? "40%" : "50%")};
+  width: ${(props) => (props.$isText ? "50%" : "50%")};
+  padding: ${(props) => (props.$isText ? "1rem" : "0")};
   font-size: ${(props) => (props.$size ? props.$size : "inherit")};
-  display: block;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  line-height: 3rem;
 `;
 
 export const SectionRight = styled.div`
-  width: ${(props) => (props.$isText ? "40%" : "50%")};
+  width: ${(props) => (props.$isText ? "50%" : "50%")};
+  padding: ${(props) => (props.$isText ? "1rem" : "0")};
   font-size: ${(props) => (props.$size ? props.$size : "inherit")};
-  display: block;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  line-height: 3rem;
 `;

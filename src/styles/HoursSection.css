@@ -1,5 +1,4 @@
 .hours-row {
-  padding: 1rem;
   display: flex;
   justify-content: space-between;
   border-bottom: 0.1rem dotted black;
@@ -9,4 +8,8 @@
   .hours-row {
     border-bottom: 0.1rem dotted white;
   }
+}
+
+#hoursList {
+  width: 100%;
 }
