@@ -3,6 +3,7 @@ import {
   SectionContent,
   SectionLeft,
   SectionRight,
+  SectionInner,
 } from "./Section.style";
 import "../styles/HomeSection.css";
 import bookImg from "../assets/book_6.png";

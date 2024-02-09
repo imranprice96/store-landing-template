@@ -12,7 +12,7 @@ const Header = () => {
         <div className="header-divider">
           <li>
             <a href="#home">
-              <i style={{ color: "white" }}>
+              <i id="logo">
                 <LogoSVG width="4rem" height="4rem" />
               </i>
             </a>
@@ -56,6 +56,10 @@ const StyledNav = styled.nav`
   align-items: center;
   background-color: var(--green-primary);
   height: 75px;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+  }
 `;
 
 const StyledList = styled.ul`
